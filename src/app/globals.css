@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* globals.css */
+body {
+  font-family: 'Helvetica';
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0000000D;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #002d72;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.nav-item span {
+  margin-left: 10px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+.bg-card {
+  
+  background-image: url('../../public/assets/images/Card.png') !important;
+ background-size: cover;
+}
+.overlaycard{
+  background: linear-gradient(243.94deg, rgba(255, 237, 188, 0.25) -127.03%, rgba(18, 18, 18, 0.25) 100%);
+
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
